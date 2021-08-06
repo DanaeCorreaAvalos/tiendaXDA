@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    
+}
+
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 31vw 7vw 31vw 31vw;
+    grid-template-rows: 15vh 60vh 25vh;
+    grid-auto-columns: max-content;
+    grid-auto-rows: max-content;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5 {
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+
+    .container {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .item1 {
+        width: 100%;
+        height: 7vh;
+        order: 1;
+    }
+
+    .item2 {
+        width: 100%;
+        height: 35vh;
+        order: 2;
+    }
+
+    .item3 {
+        width: 100%;
+        height: 35vh;
+        order: 3;
+    }
+
+    .item4 {
+        width: 93%;
+        height: 22vh;
+        order: 4;
+    }
+
+    .item5 {
+        width: 6%;
+        height: 22vh;
+        order: 4;
+    }
+    
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+.item5 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    
+}
+
+.item5 h5 {
+    transform: rotate(90deg);
+    font-size: large;
+    padding: 0;
+    margin: 0;
+}
+
+
+.text {
+    width: 5.5vw;
+    height: 7.5rem;
+    margin: 5rem 0 0 0;
+    color:#0c0910;
+    font-family: 'Old Standard TT';
+    font-weight: 700;
+
+}
